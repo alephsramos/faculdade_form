@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../src/style.css">
+
+    <title>Academia | Planos</title>
+</head>
+<body>
+        
+    <header>
+        <img class="imgLogo" src="../img/HalteresSeusHabitosTopo.png" alt="logo da nav"><br>
+        <address class="ender">
+            <i>Estrada do Puxa Ferro, 12<br>
+            Tel: (21) 91234-5678<br>
+            contato@halterhabit.com.br</i>
+        </address>
+</header>
+<div class="adres">
+<nav>
+    <ul>
+        <li>
+            <a href="./HalteresSeusHabitos.html" target="_blank">Apresentação</a>
+        </li>
+        <li>
+            <a href="./Planos.html" target="_blank">Planos</a>
+        </li>
+        <li>
+            <a href="./Equipamentos.html" target="_blank">Equipamentos</a>
+        </li>
+        <li>
+            <a href="./Inscricao.html" target="_blank">Inscrição</a>
+        </li>
+    </ul>
+</nav>
+<section>
+
+    <form class="formul" id="form_action" method="post">
+        <fieldset class="fsPessoal">
+            <legend>Dados Pessoais</legend>
+            <label for="name">Nome:</label>
+                <input type="text" name="nome" class="inpNome"><br>
+
+            <fieldset class="fsGenero">
+                    <legend>Genero</legend>
+                    <input type="radio" name="genero" value="masculino">Masculino<br>
+                    <input type="radio" name="genero" value="feminino" checked>Feminino<br>
+                    <input type="radio" name="genero" value="outro">Outro
+            </fieldset>
+
+            <label for="tel">Telefone:</label>
+                <input type="tel" name="tel" class="inpTelef"><br>
+
+            <label for="mobile_phone">Celular:</label>
+                <input type="tel" name="mobile_phone" class="inpTelef"><br>
+
+            <label for="idade">Idade:</label>
+                <input type="number" name="idade" class="numDD" placeholder="18"><br>
+        </fieldset>
+
+        <fieldset class="fsMatricula">
+            <legend>Matrícula</legend>
+            <label for="matricula_check">Matriculado?</label>
+            <input type="checkbox" name="matricula_check" value="sim">
+
+            <input type="text" name="numero_matricula" class="inpMat ColDirMat">
+            <label for="numero_matricula" class="ColDirMat">Número:</label>
+            
+
+            <label for="select_atividade">Atividade:</label>
+            <select name="select_atividade" class="select_form">
+                <option value="nulo">-----</option>
+                <option value="Academia">Academia</option>
+                <option value="Natacao">Natação</option>
+                <option value="Combo">Combo</option>
+            </select>
+
+            
+            <select name="select_plano" class="select_form ColDirMat">
+                <option value="nulo">-----</option>
+                <option value="Anual">Anual</option>
+                <option value="Semestral">Semestral</option>
+                <option value="Mensal">Mensal</option>
+            </select>
+            <label for="select_plano" class="ColDirMat">Plano:</label>
+            
+
+            <fieldset class="fsCartao">
+                <legend>Cartão</legend>
+                <label for="bandeira">Bandeira:</label>
+                <input type="radio" name="bandeira" value="visa" checked>Visa
+                <input type="radio" name="bandeira" value="master">Master
+                <input type="radio" name="bandeira" value="elo">Elo<br>
+
+                <label for="validade">Validade</label>
+                <input type="number" name="validade" value="validae_mes" class="numDD" placeholder="31"> /
+                <input type="number" name="validade" value="validade_ano" class="numQD" placeholder="2029"><br>
+
+                <label for="numero_cartao">Número</label>
+                <input type="number" name="numero_cartao" class="inpNCC">
+            </fieldset>
+
+            <button class="entEsquerda">Matrícula+Plano</button>
+
+            <input type="number" name="valor_total" class="inpVal entDireita">
+            <label for="valor_total" class="entDireita2">Valor: R$</label>
+            
+        </fieldset>
+
+        <button type="reset" class="entDireita">Limpar</button>
+        <button type="submit" class="entDireita" id="btn_enviar">Enviar</button>
+
+        <script src="../src/script.js"></script>
+        
+    </form>
+    
+</section>
+</div>
+</body>
+</html>

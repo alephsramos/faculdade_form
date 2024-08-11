@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Stoke:wght@300;400&display=swap');
+
+body{
+    background-color: #ddcc55;
+    font-size: 16px;
+    color: #000000;
+    font-family: "Stoke", serif;
+}
+
+header{
+    display: block;
+    margin-bottom: 1px;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #222222;
+}
+
+a:visited{
+    color: #222222;
+}
+
+.ender{
+    float: right;
+    display: block;
+    line-height: 140%;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imgLogo{
+    border-bottom: 3px solid #222222;
+    margin-bottom: 6px;
+    padding-bottom: 15px;
+    display: block;
+    float: left;
+}
+
+.adres{
+    display: flex;
+    width: 100%;
+}
+
+.listaPlano{
+    background-color: #eeeebb;
+    width: 300px;
+    color: #202020;
+    padding: 10px 10px 10px 30px;
+    border: 3px solid #202020;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.listaPlano ul{
+    margin: 10px;
+    list-style-type: square;
+}
+
+
+.imgCel{
+    width: 100px;
+    background-color: #fff;
+}
+
+.imgCel img{
+    width: 100px;
+    height: 100px;
+}
+
+.tabEquip{
+    border: 1px solid #202020;
+    border-collapse: separate;
+    width: 510px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.tabEquip th{
+    border: 1px solid #202020;
+    padding: 10px;
+}
+
+.tabEquip td{
+    border: 1px solid #202020;
+    padding: 10px;
+    font-size: 12px;
+    background-color: #eeeebb;
+}
+
+.tabTitulo{
+    background-color: #402020;
+    color: #fff;
+
+}
+
+.tabSubTit{
+    background-color: #802020;
+    color: #fff;
+}
+
+.formul{
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    color: #202020;
+    background-color: #eeeebb;
+    border: 3px solid #202020;
+    font-size: 12px;
+}
+
+.fsPessoal{
+    width: 340px;
+    margin: 0 auto;     
+}
+
+label{
+    width: 80px;
+    display: inline-block; 
+    padding: 5px; 
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+}
+
+.fsGenero{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.fsMatricula{
+    width: 340px;
+    margin: 0 auto;
+}
+
+.fsCartao{
+    width: 280px;
+    margin: 0 auto;
+}
+
+.inpNome{
+    width: 220px;
+}
+
+.inpTelef{
+    width: 70px;
+}
+
+.inpMat{
+    width: 70px;
+}
+
+.inpVal{
+    width: 50px;
+}
+
+.numQD{
+    width: 50px;
+}
+
+.inpNCC{
+    width: 130px;
+}
+
+.numDD{
+    width: 35px;
+}
+
+.entDireita{
+    margin-right: 20px;
+    margin-top: 5px;
+    float: right;
+}
+
+button{
+    cursor: pointer;
+}
+
+.entDireita2{
+    float: right;
+    margin-top: 5px;
+}
+
+.entEsquerda{
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.select_form{
+    width: 80px;
+}
+
+
+.ColDirMat{
+    float: right;
+}
+
+
+.linhaDados{
+    height: 130px;
+    width: 340px;
+}
+
+h4{
+    font-size: 14px;
+}
+
+ol{
+    color: #202020;
+}
+
+span{
+    color: #cc0000;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 300px;
+}
+
+ul{
+    color: #000000;
+    line-height: 230%;
+    margin-top: 40px;
+    list-style-type: square;
+    font-size: 14;
+}
+
+section{
+    display: flex;
+    float: right!important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    width: 80%;
+}
